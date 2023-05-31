@@ -1,0 +1,4 @@
+** Functions, Variables
+-----------------------
+	- code hello.py --> Command used for creating a Python file using the terminal.
+	- python hello.py --> Command used for running the program.
