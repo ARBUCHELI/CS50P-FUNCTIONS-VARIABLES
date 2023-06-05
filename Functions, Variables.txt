@@ -2,3 +2,20 @@
 -----------------------
 	- code hello.py --> Command used for creating a Python file using the terminal.
 	- python hello.py --> Command used for running the program.
+
+	- Arguments --> Input to a function that somehow influences its behavior.
+
+	- Side Effects --> Things displayed by functions.
+
+	- Hardcode --> This will never be a good practice.
+	
+	- Return values --> We expect our functions to return something to the user.
+
+name = input("What's your name? ")
+print("hello,")
+print(name)
+
+	
+
+	
+
