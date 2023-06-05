@@ -189,20 +189,29 @@
 	- You can learn more in Python’s documentation on print.
 
 
-A small problem with quotation marks
-Notice how adding quotation marks as part of your string is challenging.
-print("hello,"friend"") will not work and the compiler will throw an error.
-Generally, there are two approaches to fixing this. First, you could simply change the quotes to single quote marks.
-Another, more commonly used approach would be code as print("hello, \"friend\""). The backslashes tell the compiler that the following character should be considered a quotation mark in the string and avoid a compiler error.
-Formatting Strings
-Probably the most elegant way to use strings would be as follows:
+	* A small problem with quotation marks
+	--------------------------------------
+	- Notice how adding quotation marks as part of your string is challenging.
 
-# Ask the user for their name
-name = input("What's your name? ")
-print(f"hello, {name}")
-Notice the f in print(f"hello, {name}"). This f is a special indicator to Python to treat this string a special way, different than previous approaches we have illustrated in this lecture. Expect that you will be using this style of strings quite frequently in this course.
+	- print("hello,"friend"") will not work and the compiler will throw an error.
 
-More on Strings
+	- Generally, there are two approaches to fixing this. First, you could simply change the quotes to single quote marks.
+
+	- Another, more commonly used approach would be code as print("hello, \"friend\""). The backslashes tell the compiler that the following character should be considered a quotation 
+	mark in the string and avoid a compiler error.
+
+	* Formatting Strings
+	--------------------
+	- Probably the most elegant way to use strings would be as follows:
+
+		# Ask the user for their name
+		name = input("What's your name? ")
+		print(f"hello, {name}")
+
+	Notice the f in print(f"hello, {name}"). This f is a special indicator to Python to treat this string a special way, different than previous approaches we have illustrated in this lecture. Expect that you will be using this style of strings quite frequently in this course.
+
+	# More on Strings
+	-----------------
 You should never expect your user will cooperate as intended. Therefore, you will need to ensure that the input of your user is corrected or checked.
 It turns out that built into strings is the ability to remove whitespace from a string.
 By utilizing the method strip on name as name = name.strip(), it will strip all the whitespaces on the left and right of the users input. You can modify your code to be:
