@@ -20,6 +20,7 @@
 	- Returning Values
 	- Summing Up
 
+===================================================================================================================================================================
 
 	* Creating Code with Python
 	---------------------------
@@ -40,6 +41,7 @@
 
 	- Congrats! You just created your first program.
 
+==================================================================================================================================================================
 
 	* Functions
 	-----------
@@ -48,6 +50,8 @@
 	- In your hello.py program, the print function knows how to print to the terminal window.
 
 	- The print function takes arguments. In this case, "hello, world" are the arguments that the print function takes.
+
+==================================================================================================================================================================
 
 	* Bugs
 	------
@@ -58,6 +62,7 @@
 
 	- Often, the error messages will inform you of your mistake and provide you clues on how to fix them. However, there will be many times that the compiler is not this kind.
 
+==================================================================================================================================================================
 
 	* Improving Your First Python Program
 	-------------------------------------	
@@ -69,6 +74,8 @@
 		print("hello, world")
 
 	- This edit alone, however, will not allow your program to output what your user inputs. For that, we will need to introduce you to variables
+
+==================================================================================================================================================================
 
 	* Variables
 	-----------
@@ -105,6 +112,8 @@
 
 	- You can learn more in Python’s documentation on data types.
 
+==================================================================================================================================================================
+
 	* Comments
 	----------
 	- Comments are a way for programmers to track what they are doing in their programs and even inform others about their intentions for a block of code. In short, they are notes for 
@@ -119,6 +128,8 @@
 
 	- Comments can also serve as to-do list for you.
 
+==================================================================================================================================================================
+
 	* Pseudocode
 	------------
 	- Pseudocode is an important type of comment that becomes a special type of to-do list, especially when you don’t understand how to accomplish a coding task. For example, in your 
@@ -132,6 +143,8 @@
 
 		# Print the name inputted
 		print(name)
+
+==================================================================================================================================================================
 
 	* Further Improving Your First Python Program
 	---------------------------------------------
@@ -188,6 +201,7 @@
 
 	- You can learn more in Python’s documentation on print.
 
+==================================================================================================================================================================
 
 	* A small problem with quotation marks
 	--------------------------------------
@@ -200,6 +214,8 @@
 	- Another, more commonly used approach would be code as print("hello, \"friend\""). The backslashes tell the compiler that the following character should be considered a quotation 
 	mark in the string and avoid a compiler error.
 
+==================================================================================================================================================================
+
 	* Formatting Strings
 	--------------------
 	- Probably the most elegant way to use strings would be as follows:
@@ -209,6 +225,8 @@
 		print(f"hello, {name}")
 
 	Notice the f in print(f"hello, {name}"). This f is a special indicator to Python to treat this string a special way, different than previous approaches we have illustrated in this lecture. Expect that you will be using this style of strings quite frequently in this course.
+
+==================================================================================================================================================================
 
 	* More on Strings
 	-----------------
@@ -269,48 +287,66 @@
 
 	You can learn more about strings in Python’s documentation on str
 
+==================================================================================================================================================================
+
 	* Integers or int
 	-----------------
-In Python, an integer is referred to as an int.
-In the world of mathematics, we are familiar with +, -, *, /, and % operators. That last operator % or modulo operator may not be very familiar to you.
-You don’t have to use the text editor window in your compiler to run Python code. Down in your terminal, you can run python alone. You will be presented with >>> in the terminal window. You can then run live, interactive code. You could type 1+1 and it will run that calculation. This mode will not commonly be used during this course.
-Opening up VS Code again, we can type code calculator.py in the terminal. This will create a new file in which we will create our own calculator.
-First, we can declare a few variables.
+	- In Python, an integer is referred to as an int.
 
-x = 1
-y = 2
+	- In the world of mathematics, we are familiar with +, -, *, /, and % operators. That last operator % or modulo operator may not be very familiar to you.
 
-z = x + y
+	- You don’t have to use the text editor window in your compiler to run Python code. Down in your terminal, you can run python alone. You will be presented with >>> in the terminal window. You can then run live, interactive code. You could type 1+1 and it will run that calculation. This mode will not commonly be used during this course.
 
-print(z)
-Naturally, when we run python calculator.py we get the result in the terminal window of 3. We can make this more interactive using the input function.
+	- Opening up VS Code again, we can type code calculator.py in the terminal. This will create a new file in which we will create our own calculator.
 
-x = input("What's x? ")
-y = input("What's y? ")
+	- First, we can declare a few variables.
 
-z = x + y
+		x = 1
+		y = 2
 
-print(z)
-Running this program, we discover that the output is incorrect as 12. Why might this be?
-Prior, we have seen how the + sign concatenates two strings. Because your input from your keyboard on your computer comes into the compiler as text, it is treated a string. We, therefore, need to convert this input from a string to an integer. We can do so as follows:
+		z = x + y
 
-x = input("What's x? ")
-y = input("What's y? ")
+		print(z)
 
-z = int(x) + int(y)
+		Naturally, when we run python calculator.py we get the result in the terminal window of 3. We can make this more interactive using the input function.
 
-print(z)
-The result is now correct. The use of int(x), is called “casting” where a value is temporarily changed from one type of variable (in this case a string) to another (here, an integer).
+		x = input("What's x? ")
+		y = input("What's y? ")
 
-We can further improve our program as follows:
+		z = x + y
 
-x = int(input("What's x? "))
-y = int(input("What's y? "))
+		print(z)
 
-print(x + y)
-This illustrates that you can run functions on functions. The most inner function is run first, and then the outer one is run. First, the input function is run. Then, the int function.
+	- Running this program, we discover that the output is incorrect as 12. Why might this be?
 
-You can learn more in Python’s Documenation of int.
+	- Prior, we have seen how the + sign concatenates two strings. Because your input from your keyboard on your computer comes into the compiler as text, it is treated a string. We, 
+	therefore, need to convert this input from a string to an integer. We can do so as follows:
+
+		x = input("What's x? ")
+		y = input("What's y? ")
+
+		z = int(x) + int(y)
+
+		print(z)
+		
+		The result is now correct. The use of int(x), is called “casting” where a value is temporarily changed from one type of variable (in this case a string) to another (here, 
+		an integer).
+
+	- We can further improve our program as follows:
+
+		x = int(input("What's x? "))
+		y = int(input("What's y? "))
+
+		print(x + y)
+
+	This illustrates that you can run functions on functions. The most inner function is run first, and then the outer one is run. First, the input function is run. Then, the int 
+	function.
+
+
+	- You can learn more in Python’s Documenation of int.
+
+==================================================================================================================================================================
+
 Readability Wins
 When deciding on your approach to a coding task, remember that one could make a reasonable argument for many approaches to the same problem.
 Regardless of what approach you take to a programming task, remember that your code must be readable. You should use comments to give yourself and others clues about what your code is doing. Further, you should create code in a way that is readable.
