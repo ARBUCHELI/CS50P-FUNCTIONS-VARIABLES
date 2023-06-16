@@ -23,4 +23,9 @@
 x = float(input("What's x? "))
 y = float(input("What's y? "))
 
-print(x + y)
+#print(x + y)
+
+# Round to the nearest integer
+z = round(x + y)
+
+print(z)
