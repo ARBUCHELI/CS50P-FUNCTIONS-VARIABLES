@@ -26,7 +26,23 @@ y = float(input("What's y? "))
 #print(x + y)
 
 # Round to the nearest integer
-z = round(x + y)
+#z = round(x + y)
 
 # Print the formatted result
-print(f"{z:,}")
+#print(f"{z:,}")
+
+# Round floating point values, using round
+#z = x / y
+
+# Calculate the result and round
+z = round(x / y, 2)
+print(z)
+
+# Round floating point values, using fstring
+# Calculate the result
+z1 = x / y
+
+# Print the result
+print(f"{z1:.2f}")
+
+# The result will be the same
