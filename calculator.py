@@ -28,4 +28,5 @@ y = float(input("What's y? "))
 # Round to the nearest integer
 z = round(x + y)
 
-print(z)
+# Print the formatted result
+print(f"{z:,}")
