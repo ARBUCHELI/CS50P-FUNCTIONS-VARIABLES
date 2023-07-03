@@ -1,0 +1,24 @@
+# SHORTS
+--------
+	Linux commands
+	--------------
+	. code --> Create a file
+		code hello.py
+
+	. python hello.py
+
+	. ls --> list all files in your current folder
+
+	. cp --> copy a file from one place to another
+
+	. mv --> move a file 
+
+	. rm --> remove, delete a file, dir
+
+	. mkdir --> make a directory
+
+	. cd --> change directories from one to another
+
+	. rmdir --> remove a directory
+
+	. clear --> clear the screen
