@@ -1,0 +1,36 @@
+# VISUAL STUDIO CODE FOR CS50
+-----------------------------
+
+code.cs50.io
+
+* Useful commands
+-----------------
+
+. code: create new files, and open new tabs.
+	code hello.py
+
+	python hello.py
+
+. ls: list all of the files in the current folder.
+
+. cp: copy a file from one place to another.
+	cp hello.py goodbye.py
+	
+	code goodbye.py
+
+. mv: move a file or rename it from one name to another.
+	mv goodbye.py farewell.py
+
+. rm: remove or delete a file.
+
+. mkdir: create a directory.
+
+. cd: change directories.
+
+. rmdir: remove a directory.
+
+. clear: clear the terminal window.
+
+
+
+
