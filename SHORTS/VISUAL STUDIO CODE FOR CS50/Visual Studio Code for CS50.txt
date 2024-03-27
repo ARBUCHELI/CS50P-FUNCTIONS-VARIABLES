@@ -20,16 +20,26 @@ code.cs50.io
 
 . mv: move a file or rename it from one name to another.
 	mv goodbye.py farewell.py
+	mv farewell.py .. --> .. is a syntax representation of whatever the parent folder it is.
 
 . rm: remove or delete a file.
+	rm farewell.py
+
+	It's possible to type rm far and tab (for autocompleting)
 
 . mkdir: create a directory.
 
 . cd: change directories.
 
 . rmdir: remove a directory.
+	rmdir folder
 
 . clear: clear the terminal window.
+
+. cd .. --> For going back to the parent directory.
+
+. cd --> Will take you to the root directory.
+
 
 
 
