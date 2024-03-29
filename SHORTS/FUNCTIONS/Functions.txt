@@ -1,0 +1,25 @@
+# FUNCTIONS
+-----------
+print("Hello, world!")
+print("This is CS50P.")
+
+With the parentheses is one of the ways to identify this is a function.
+
+* Syntax for creating functions
+-------------------------------
+
+def main():
+	print("Hello, world!")
+	print("This is CS50P.")
+
+Running the function:
+
+main()
+
+def main():
+    print("Hello, world!")
+    print("This is CS50P.")
+
+
+main()
+
